@@ -1,0 +1,21 @@
+{
+  "name": "galo/generic-crud-pdo",
+  "description": "Generic crud using PDO.",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/giovannialo/generic-crud-pdo",
+  "authors": [
+    {
+      "name": "Giovanni A. L. Oliveira",
+      "email": "giovanni.al.oliveira@gmail.com",
+      "homepage": "https://github.com/giovannialo"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Crud\\": "src/"
+    }
+  }
+}
